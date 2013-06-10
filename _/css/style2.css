@@ -364,8 +364,18 @@ li#cont-v {
 	-moz-transition:background-position-x .3s ease-out;  
 	-o-transition:background-position-x .3s ease-out;  
 	transition:background-position-x .35s ease-out; 
+	}
+#nav li a {
+	opacity: 0;
+	   transition: opacity .3s ease-in-out;
+	   -moz-transition: opacity .3s ease-in-out;
+	   -webkit-transition: opacity .3s ease-in-out;
 	
-}
+	}
+#nav li:hover a{
+	opacity: 1.0;
+	
+	}		
 #nav li:hover {
 	width: 198px;
 	text-indent: 0px;
@@ -378,8 +388,11 @@ li#cont-v {
 }
 #nav li.prendido {
 	text-indent: 0px;
-	background-position-x: 0px;	
-}
+	background-position-x: 0px;
+	}
+	#nav li.prendido a {
+		opacity: 1.0;
+	}
 /* NOSOTROS */
 
 #cuadros {
