@@ -1,0 +1,434 @@
+a {
+	text-decoration: none;
+}
+header, footer {
+padding-top: 7px ;
+height: 26px;
+background-color: #49A943;
+border-bottom: 3px solid #8BC541;
+}
+header.blue, footer.blue {
+	background-color: #0083ca;
+	border-color: #3997CA;
+}
+header.naranja, footer.naranja {
+	background-color: #F47929;
+	border-color: #F48F4E;
+}
+header.yellow, footer.yellow {
+	background-color: #FFCE34;
+	border-color: #FFDF7D;
+}
+#header-wp, #footer-wp, #container-wp {
+	width: 1020px;
+	overflow: hidden;	
+}
+#footer-wp p {
+	margin-left: 15px;
+}
+#header-wp ul {
+	float: right;
+}
+#header-wp ul li {
+	display: inline;
+	margin-left: 45px;
+}
+#header-wp a {
+	color: white;
+	font: normal 16px 'dinregular';
+}
+#container {
+	background-color: #F7F7F7;
+}
+#container-wp ul#menu {
+	margin: 0 auto;
+	padding-top: 80px;
+}
+#container-wp ul#menu li.menu-ele{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 30px;
+		
+}
+
+#container-wp .seguridad {
+	background: transparent url('../img/seguridad.png') no-repeat left top;
+	width: 224px;
+	height: 73px;
+	display: block;
+	-webkit-transition:background 1s linear;  
+	-moz-transition:background 1s linear;  
+	-o-transition:background 1s linear;  
+	transition:background 1s linear;
+	
+	
+}
+#container-wp .seguridad:hover {
+	background: transparent url('../img/seguridad-h.png') no-repeat left top;
+}
+#container-wp .laboratorio {
+	background: transparent url('../img/laboratorio.png') no-repeat left top;
+	width: 224px;
+	height: 73px;
+	display: block;
+	-webkit-transition:background 1s linear;  
+	-moz-transition:background 1s linear;  
+	-o-transition:background 1s linear;  
+	transition:background 1s linear;
+}
+#container-wp .laboratorio:hover {
+	background: transparent url('../img/laboratorio-h.png') no-repeat left top;
+}
+#container-wp .capacitacion {
+	background: transparent url('../img/capacitacion.png') no-repeat left top;
+	width: 224px;
+	height: 73px;
+	display: block;
+	-webkit-transition:background 1s linear;  
+	-moz-transition:background 1s linear;  
+	-o-transition:background 1s linear;  
+	transition:background 1s linear;
+}
+#container-wp .capacitacion:hover {
+	background: transparent url('../img/capacitacion-h.png') no-repeat left top;
+}
+#container-wp .ambiental {
+	background: transparent url('../img/ambiental.png') no-repeat left top;
+	width: 124px;
+	height: 73px;
+	display: block;
+	-webkit-transition:background 1s linear;  
+	-moz-transition:background 1s linear;  
+	-o-transition:background 1s linear;  
+	transition:background 1s linear;
+}
+#container-wp .ambiental:hover {
+	background: transparent url('../img/ambiental-h.png') no-repeat left top;
+}
+#container-wp .consultoria {
+	background: transparent url('../img/consultoria.png') no-repeat left top;
+	width: 124px;
+	height: 73px;
+	display: block;
+	-webkit-transition:background 1s linear;  
+	-moz-transition:background 1s linear;  
+	-o-transition:background 1s linear;  
+	transition:background 1s linear;
+}
+#container-wp .consultoria:hover {
+	background: transparent url('../img/consultoria-h.png') no-repeat left top;
+}
+#container-wp .equipo {
+	background: transparent url('../img/equipo.png') no-repeat left top;
+	width: 124px;
+	height: 73px;
+	display: block;
+	-webkit-transition:background 1s linear;  
+	-moz-transition:background 1s linear;  
+	-o-transition:background 1s linear;  
+	transition:background 1s linear;
+}
+#container-wp .equipo:hover {
+	background: transparent url('../img/equipo-h.png') no-repeat left top;
+}
+#container-wp .seguridad, .laboratorio, .ambiental, .consultoria {
+	margin-bottom: 20px;
+}
+.seguridad, .ambiental {
+	margin-top: 50px;
+}
+#container-wp #menu a {
+	font: normal 16px 'dinregular';
+	color: white;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+#container-wp #menu a.left {
+	padding-left: 30px;
+}
+#container-wp #menu a.right {
+	padding-left: 100px;
+}
+#container-wp #menu  a.linea {
+	padding-top: 25px;
+}
+#cita {
+	padding: 100px 0;
+	padding-bottom: 120px;
+	position: relative;
+	
+}
+#cita img#comillas-l {
+	position: absolute;
+	left: 160px;
+	top: 80px;
+}
+#cita img#comillas-r {
+	position: absolute;
+	right: 160px;
+	bottom: 110px;
+}
+#cita h2 {
+	background-color: #49A943;
+	color: white;
+	border-radius: 10px;
+	font: normal 20px 'dinregular';
+	padding: 8px;
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	
+}
+#footer-wp p {
+	color: white;
+	font: normal 14px 'dinregular';
+}
+
+/* SERVICIOS */
+
+#sidebar {
+	width: 260px;
+	float: left;
+				
+}
+#sidebar #logo {
+	text-align: center;
+	padding-top: 20px;
+}
+#sidebar #nav {
+	padding-top: 45px;
+}
+#contenido {
+	width: 760px;
+	float: right;
+}
+#titulo {
+	height: 110px;
+	position: relative;
+	padding-top: 60px;
+	overflow: hidden;
+}
+#titulo h1 {
+	font: normal 50px 'dinbold';
+}
+#titulo h1#yellow {
+	color: #FFCE34;
+}
+#titulo h1#blue {
+	color:#0083CA;
+}
+#titulo h1#naranja {
+	color: #F47929;
+}
+#titulo h1#verde {
+	color: #50B848;
+}
+#titulo img {
+	position: absolute;
+	right: 0;
+	top: 88px;
+}
+#contenido {
+	padding-bottom: 140px;
+}
+#contenido p, #contenido ul li {
+	font: normal 14px 'dinregular';
+	color: #727272;
+	text-align: justify;
+}
+
+#contenido ul#servicios {
+	margin: 45px 0 50px 70px;
+}
+#contenido ul#servicios li {
+	list-style-type: square;
+}
+.n-a {	
+	display: block;
+	width:  93px;
+	height: 43px;
+	color: white;
+	font: normal 14px 'dinregular';
+	padding-top: 4px;
+	padding-left: 10px;	
+}
+.n-a:hover {
+	color: white;
+}
+.single {
+	padding-top: 13px;
+}
+li#nos-b {
+	background: transparent url('../img/blue/b-nosotros.png') no-repeat left top;
+}
+li#seg-b {
+	background: transparent url('../img/blue/b-seguridad.png') no-repeat left top;
+}
+li#lab-b {
+	background: transparent url('../img/blue/b-laboratorio.png') no-repeat left top;
+}
+li#amb-b {
+	background: transparent url('../img/blue/b-ambiental.png') no-repeat left top;
+}
+li#cap-b {
+	background: transparent url('../img/blue/b-capacitacion.png') no-repeat left top;
+}
+li#con-b {
+	background: transparent url('../img/blue/b-consultoria.png') no-repeat left top;	 
+}
+li#equi-b {
+	background: transparent url('../img/blue/b-equipo.png') no-repeat left top;
+}
+li#cont-b {
+	background: transparent url('../img/blue/b-contacto.png') no-repeat left top;
+}
+li#nos-a {
+	background: transparent url('../img/blue/a-nosotros.png') no-repeat left top;
+}
+li#seg-a {
+	background: transparent url('../img/blue/a-seguridad.png') no-repeat left top;
+}
+li#lab-a {
+	background: transparent url('../img/blue/a-laboratorio.png') no-repeat left top;
+}
+li#amb-a {
+	background: transparent url('../img/blue/a-ambiental.png') no-repeat left top;
+}
+li#cap-a {
+	background: transparent url('../img/blue/a-capacitacion.png') no-repeat left top;
+}
+li#con-a {
+	background: transparent url('../img/blue/a-consultoria.png') no-repeat left top;	 
+}
+li#equi-a {
+	background: transparent url('../img/blue/a-equipo.png') no-repeat left top;
+}
+li#cont-a {
+	background: transparent url('../img/blue/a-contacto.png') no-repeat left top;
+}
+li#nos-n {
+	background: transparent url('../img/blue/n-nosotros.png') no-repeat left top;
+}
+li#seg-n {
+	background: transparent url('../img/blue/n-seguridad.png') no-repeat left top;
+}
+li#lab-n {
+	background: transparent url('../img/blue/n-laboratorio.png') no-repeat left top;
+}
+li#amb-n {
+	background: transparent url('../img/blue/n-ambiental.png') no-repeat left top;
+}
+li#cap-n {
+	background: transparent url('../img/blue/n-capacitacion.png') no-repeat left top;
+}
+li#con-n {
+	background: transparent url('../img/blue/n-consultoria.png') no-repeat left top;	 
+}
+li#equi-n {
+	background: transparent url('../img/blue/n-equipo.png') no-repeat left top;
+}
+li#cont-n {
+	background: transparent url('../img/blue/n-contacto.png') no-repeat left top;
+}
+li#nos-v {
+	background: transparent url('../img/blue/v-nosotros.png') no-repeat left top;
+}
+li#seg-v {
+	background: transparent url('../img/blue/v-seguridad.png') no-repeat left top;
+}
+li#lab-v {
+	background: transparent url('../img/blue/v-laboratorio.png') no-repeat left top;
+}
+li#amb-v {
+	background: transparent url('../img/blue/v-ambiental.png') no-repeat left top;
+}
+li#cap-v {
+	background: transparent url('../img/blue/v-capacitacion.png') no-repeat left top;
+}
+li#con-v {
+	background: transparent url('../img/blue/v-consultoria.png') no-repeat left top;	 
+}
+li#equi-v {
+	background: transparent url('../img/blue/v-equipo.png') no-repeat left top;
+}
+li#cont-v {
+	background: transparent url('../img/blue/v-contacto.png') no-repeat left top;
+}
+#nav li {
+	height: 43px;
+	display: block;
+	text-indent: -9999px;
+	width: 198px;
+	background-position-x: -115px;
+	-webkit-transition:background-position-x .3s ease-out;  
+	-moz-transition:background-position-x .3s ease-out;  
+	-o-transition:background-position-x .3s ease-out;  
+	transition:background-position-x .35s ease-out; 
+	
+}
+#nav li:hover {
+	width: 198px;
+	text-indent: 0px;
+	background-position-x: 0px;	
+	-webkit-transition:background-position-x .3s ease-in;  
+	-moz-transition:background-position-x .3s ease-in;  
+	-o-transition:background-position-x .3s ease-in;  
+	transition:background-position-x .3s ease-in;
+
+}
+#nav li.prendido {
+	text-indent: 0px;
+	background-position-x: 0px;	
+}
+/* NOSOTROS */
+
+#cuadros {
+	text-align: center;
+	padding: 30px 0;
+}
+
+#cuadros ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+#cuadros h3 {
+	color: #50B848;
+		font: normal 18px 'dinbold';
+	
+}
+#cuadros p {
+	width: 180px;
+	margin-top: 20px;
+}
+/* SERVICIOS */
+#forma {
+	width: 356px;
+	float: left;
+}
+#forma p {
+	padding-bottom: 15px;
+}
+label {
+	color: #727272;
+	}
+.input {
+	margin-bottom: 10px;
+	border: 1px solid #D8D8D8;
+	background-color: #;
+}
+#bEnviar {
+	margin-top: 5px;
+	float: right;
+	color: white;
+	background-color: #49A943;
+	border: none;
+
+}
+#bEnviar:hover{
+	background-color: #8BC541;
+}
+p#direccion {
+float: right;
+text-align: right;
+}
+
